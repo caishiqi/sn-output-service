@@ -1,0 +1,197 @@
+{
+  "pages": {
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "area": {
+            "w": 100,
+            "x": 82,
+            "h": 100,
+            "y": 695
+          },
+          "name": "/currentDate",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 82,
+            "h": 100,
+            "y": 680
+          },
+          "format": {
+            "formatType": "lineFeed",
+            "lengths": [
+              65,
+              65
+            ],
+            "formatWord": " ",
+            "offsetX": 0,
+            "offsetY": -10
+          },
+          "name": "/productName",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 82,
+            "h": 100,
+            "y": 665
+          },
+          "name": "/companyName",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 433,
+            "h": 100,
+            "y": 695
+          },
+          "name": "/companyPhoneNumber",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 433,
+            "h": 100,
+            "y": 680
+          },
+          "name": "/companyContactEmail",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 433,
+            "h": 100,
+            "y": 665
+          },
+          "name": "/companyWebsite",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 137,
+            "h": 100,
+            "y": 553
+          },
+          "name": "/loanNumber",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 130,
+            "h": 100,
+            "y": 541
+          },
+          "name": "/amountDue",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 118,
+            "h": 100,
+            "y": 529
+          },
+          "name": "/dateDue",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 158,
+            "h": 100,
+            "y": 508.5
+          },
+          "name": "/productName",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 198,
+            "h": 100,
+            "y": 434
+          },
+          "format": {
+            "formatType": "lineFeed",
+            "lengths": [
+              62,
+              62
+            ],
+            "formatWord": " ",
+            "offsetX": 0,
+            "offsetY": -10
+          },
+          "name": "/productName",
+          "type": "text"
+        },
+        {
+          "area": {
+            "w": 100,
+            "x": 412,
+            "h": 100,
+            "y": 402.5
+          },
+          "format": {
+            "formatType": "lineFeed",
+            "lengths": [
+              30,
+              40
+            ],
+            "formatWord": " ",
+            "offsetX": -314,
+            "offsetY": -13
+          },
+          "name": "/productName",
+          "type": "text"
+        }
+
+      ]
+    }
+  }
+}

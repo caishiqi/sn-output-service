@@ -1,0 +1,654 @@
+{
+  "pages": {
+    "page5": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec5"
+        }
+      ]
+    },
+    "page4": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec4"
+        }
+      ]
+    },
+    "combined2": {
+      "dataMaps": {
+        "sec3-borrower": {
+          "startIdx": 0,
+          "endIdx": 20,
+          "mod": 3,
+          "dataKey": "/acknowledgedSigns"
+        },
+        "sec3-signature": {
+          "startIdx": 0,
+          "endIdx": 20,
+          "mod": 3,
+          "dataKey": "/acknowledgedSigns"
+        }
+      },
+      "combinedPages": [
+        "page3"
+      ]
+    },
+    "page3": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3-signature"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3-borrower"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3"
+        }
+      ]
+    },
+    "combined1": {
+      "dataMaps": {
+        "sec2": {
+          "startIdx": 0,
+          "endIdx": 20,
+          "mod": 1,
+          "dataKey": "/lenderAndPlegor"
+        }
+      },
+      "combinedPages": [
+        "page2"
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "combined1",
+      "combined2",
+      "page4",
+      "page5"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 306,
+            "y": 653,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateMonthAndDay"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 430,
+            "y": 653,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateYear"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 79,
+            "y": 639,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 40,
+            "y": 625,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountOwnerNames"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 138,
+            "y": 609,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 388,
+            "y": 595,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateDate"
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 38,
+            "y": 527,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 277,
+            "y": 527,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 486,
+            "y": 527,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 530,
+            "y": 527,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressZip"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 38,
+            "y": 505,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderPhone"
+        },
+
+        {
+          "type": "text",
+          "area": {
+            "x": 38,
+            "y": 464,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/borrowerAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 277,
+            "y": 464,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/borrowerAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 486,
+            "y": 464,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/borrowerAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 530,
+            "y": 464,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/borrowerAddress/addressZip"
+        }
+      ]
+    },
+    "sec3-signature": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": -46,
+        "y": 0
+      },
+      "tags": [
+        {
+          "name": "/signature",
+          "area": {
+            "x": 49,
+            "y": 116,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/signature",
+          "area": {
+            "x": 488,
+            "y": 153,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        }
+      ]
+    },
+    "sec3-borrower": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 46,
+        "y": 0
+      },
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 260,
+            "y": 634,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/signature/name"
+        }
+      ]
+    },
+    "sec3": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 3,
+      "tags": [
+        {
+          "name": "/lender/signature",
+          "area": {
+            "x": 53,
+            "y": 36,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/lender/signature",
+          "area": {
+            "x": 455,
+            "y": 69,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 49,
+            "y": 685,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lender/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 388,
+            "y": 685,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lender/title"
+        },
+
+        {
+          "name": "/charles/signature",
+          "area": {
+            "x": 49,
+            "y": 270,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/charles/signature",
+          "area": {
+            "x": 455,
+            "y": 305,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 49,
+            "y": 454,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/charles/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 388,
+            "y": 454,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/charles/title"
+        }
+      ]
+    },
+    "sec4": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 4,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 268,
+            "y": 659,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/0/letterheadOfLender"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 61,
+            "y": 645,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/0/date"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 86,
+            "y": 617,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/0/address"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 97,
+            "y": 590,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 57,
+            "y": 571,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountOwnerNames"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 471,
+            "y": 541,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateDate"
+        }
+      ]
+    },
+    "sec5": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 5,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 268,
+            "y": 668,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/1/letterheadOfLender"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 58,
+            "y": 655,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/1/date"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 86,
+            "y": 627,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/1/address"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 97,
+            "y": 599,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/1/accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 57,
+            "y": 581,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/1/dearName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 277,
+            "y": 561,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/1/date"
+        },
+        {
+          "name": "/lender/signature",
+          "area": {
+            "x": 53,
+            "y": 269,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/lender/signature",
+          "area": {
+            "x": 455,
+            "y": 302,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 49,
+            "y": 452,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lender/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 388,
+            "y": 452,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lender/title"
+        }
+      ]
+    }
+  }
+}

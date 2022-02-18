@@ -1,0 +1,916 @@
+{
+  "pages": {
+    "page8": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec8"
+        }
+      ]
+    },
+    "page7": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec7"
+        }
+      ]
+    },
+    "combined2": {
+      "dataMaps": {
+        "sec6-pledgor": {
+          "startIdx": 0,
+          "endIdx": 20,
+          "mod": 2,
+          "dataKey": "/acknowledgedSigns"
+        },
+        "sec6-signature": {
+          "startIdx": 0,
+          "endIdx": 20,
+          "mod": 2,
+          "dataKey": "/acknowledgedSigns"
+        }
+      },
+      "combinedPages": [
+        "page6"
+      ]
+    },
+    "page6": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec6-signature"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec6-pledgor"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec6"
+        }
+      ]
+    },
+    "page5": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec5"
+        }
+      ]
+    },
+    "combined1": {
+      "dataMaps": {
+        "sec4": {
+          "startIdx": 0,
+          "endIdx": 20,
+          "mod": 1,
+          "dataKey": "/lenderAndPledgor"
+        }
+      },
+      "combinedPages": [
+        "page4"
+      ]
+    },
+    "page4": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec4"
+        }
+      ]
+    },
+    "page3": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3"
+        }
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "page2",
+      "page3",
+      "combined1",
+      "page5",
+      "combined2",
+      "page7",
+      "page8"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 468,
+            "y": 712,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 468,
+            "y": 695,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/advisorCode"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 468,
+            "y": 680,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/case"
+        },
+        {
+          "areas": {
+            "Pledge an existing account": {
+              "w": 7,
+              "x": 59.5,
+              "h": 7,
+              "y": 643
+            },
+            "Open a new Pledged account and fund it with an internal journal from an existing td ameritrade account": {
+              "w": 7,
+              "x": 59.5,
+              "h": 7,
+              "y": 602
+            },
+            "Open a new Pledged account and fund it with a transfer from another brokerage firm": {
+              "w": 7,
+              "x": 59.5,
+              "h": 7,
+              "y": 550
+            }
+          },
+          "name": "/pledgorOptions",
+          "type": "checkbox"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 342,
+            "y": 462,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderName"
+        },
+
+        {
+          "type": "text",
+          "area": {
+            "x": 162,
+            "y": 444,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/0/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 457,
+            "y": 444,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/0/title"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 130,
+            "y": 423,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/0/workAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 78,
+            "y": 402,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/0/workAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 348,
+            "y": 402,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/0/workAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 471,
+            "y": 402,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/0/workAddress/addressZip"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 454,
+            "y": 381,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateDate"
+        },
+
+        {
+          "type": "text",
+          "area": {
+            "x": 162,
+            "y": 356,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/1/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 457,
+            "y": 356,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/1/title"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 130,
+            "y": 336,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/1/workAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 78,
+            "y": 315,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/1/workAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 348,
+            "y": 315,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/1/workAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 471,
+            "y": 315,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/1/workAddress/addressZip"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 454,
+            "y": 295,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateDate"
+        },
+
+        {
+          "type": "text",
+          "area": {
+            "x": 162,
+            "y": 268,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/2/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 457,
+            "y": 268,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/2/title"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 130,
+            "y": 248,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/2/workAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 78,
+            "y": 227,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/2/workAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 348,
+            "y": 227,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/2/workAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 471,
+            "y": 227,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/preSignInfos/2/workAddress/addressZip"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 454,
+            "y": 208,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateDate"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 454,
+            "y": 85,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/generateDate"
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 114,
+            "y": 545,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 357,
+            "y": 545,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountOwnerName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 248,
+            "y": 533,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        }
+      ]
+    },
+    "sec3": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 3,
+      "tags": [
+      ]
+    },
+    "sec4": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 4,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 157,
+            "y": 238,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lendingInstitution"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 141,
+            "y": 222,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderContactName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 159,
+            "y": 205,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderPhoneNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 142,
+            "y": 189,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 167,
+            "y": 173,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 130,
+            "y": 153,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgorName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 166,
+            "y": 135,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgorStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 172,
+            "y": 118,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgorAddress"
+        }
+      ]
+    },
+    "sec5": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 5,
+      "tags": [
+      ]
+    },
+    "sec6": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 6,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 80,
+            "y": 685,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lender/name"
+        },
+        {
+          "name": "/lender/signature",
+          "area": {
+            "x": 80,
+            "y": 92,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/lender/signature",
+          "area": {
+            "x": 440,
+            "y": 123,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+
+        {
+          "type": "text",
+          "area": {
+            "x": 80,
+            "y": 475,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/tdAmeritradeInc/name"
+        },
+        {
+          "name": "/tdAmeritradeInc/signature",
+          "area": {
+            "x": 80,
+            "y": 301,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/tdAmeritradeInc/signature",
+          "area": {
+            "x": 440,
+            "y": 337,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+
+        {
+          "type": "text",
+          "area": {
+            "x": 80,
+            "y": 394,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/tdAmeritradeClearing/name"
+        },
+        {
+          "name": "/tdAmeritradeClearing/signature",
+          "area": {
+            "x": 80,
+            "y": 381,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/tdAmeritradeClearing/signature",
+          "area": {
+            "x": 440,
+            "y": 419,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        }
+      ]
+    },
+    "sec6-pledgor": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 54,
+        "y": 0
+      },
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 80,
+            "y": 606,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/signature/name"
+        }
+      ]
+    },
+    "sec6-signature": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": -54,
+        "y": 0
+      },
+      "tags": [
+        {
+          "name": "/signature",
+          "area": {
+            "x": 80,
+            "y": 173,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "signature",
+          "type": "signature",
+          "scaleValue": 0.6
+        },
+        {
+          "name": "/signature",
+          "area": {
+            "x": 440,
+            "y": 207,
+            "w": 78.37065637065638,
+            "h": 27.961389961389955
+          },
+          "signatureType": "date",
+          "type": "signature",
+          "scaleValue": 0.6
+        }
+      ]
+    },
+    "sec7": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 7,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 235,
+            "y": 618,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/letterheadOfLender"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 38,
+            "y": 581,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/date"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 136,
+            "y": 496,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/nameOfPledgor"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 206,
+            "y": 486,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 342,
+            "y": 420,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/date"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 361,
+            "y": 260,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/nameOfLender"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 296,
+            "y": 186,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/by"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 310,
+            "y": 161,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 303,
+            "y": 136,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/attachment/title"
+        }
+      ]
+    },
+    "sec8": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 8,
+      "tags": [
+      ]
+    }
+  }
+}

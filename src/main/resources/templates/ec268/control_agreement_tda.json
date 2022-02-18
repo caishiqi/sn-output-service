@@ -1,0 +1,654 @@
+{
+  "pages": {
+    "combined2": {
+      "dataMaps": {
+        "sec6": {
+          "startIdx": 0,
+          "endIdx": 5,
+          "mod": 1,
+          "dataKey": "/tdBankAndPledgor"
+        },
+        "sec6-tda-signature": {
+          "startIdx": 0,
+          "endIdx": 3,
+          "mod": 1
+        }
+      },
+      "combinedPages": [
+        "page6"
+      ]
+    },
+    "combined1": {
+      "dataMaps": {
+        "sec5": {
+          "startIdx": 0,
+          "endIdx": 5,
+          "mod": 1,
+          "dataKey": "/lenderAndPledgor"
+        }
+      },
+      "combinedPages": [
+        "page5"
+      ]
+    },
+    "page7": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec7"
+        }
+      ]
+    },
+    "page6": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec6"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec6-tda-signature"
+        }
+      ]
+    },
+    "page5": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec5"
+        }
+      ]
+    },
+    "page4": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec4"
+        }
+      ]
+    },
+    "page3": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3"
+        }
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "page2",
+      "page3",
+      "page4",
+      "combined1",
+      "combined2",
+      "page7"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 476,
+            "y": 688,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "Pledge an existing account": {
+              "x": 61,
+              "y": 614,
+              "w": 6,
+              "h": 6
+            },
+            "Open a new Pledged account and fund it with an internal journal from an existing td ameritrade account": {
+              "x": 61,
+              "y": 580,
+              "w": 6,
+              "h": 6
+            },
+            "Open a new Pledged account and fund it with a transfer from another brokerage firm": {
+              "x": 61,
+              "y": 535,
+              "w": 6,
+              "h": 6
+            }
+          },
+          "name": "/pledgorOptions"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 79,
+            "y": 486,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/controlAgreementDate"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 115,
+            "y": 463,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 115,
+            "y": 440,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 188,
+            "y": 298,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountOwnerName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 218,
+            "y": 285,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/accountNumber"
+        }
+
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+      ]
+    },
+    "sec3": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 3,
+      "tags": [
+      ]
+    },
+    "sec4": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 4,
+      "tags": [
+      ]
+    },
+    "sec5": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 5,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 111,
+            "y": 551,
+            "w": 100,
+            "h": 100
+          },
+          "name": "loanOfficerName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 464,
+            "y": 551,
+            "w": 100,
+            "h": 100
+          },
+          "name": "loanOfficerPhoneNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 111,
+            "y": 529,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 75,
+            "y": 507,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 310,
+            "y": 507,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 452,
+            "y": 507,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/lenderAddress/addressZip"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 111,
+            "y": 463,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/participantFullName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 111,
+            "y": 441,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/participantAddress/addressStreet"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 75,
+            "y": 417,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/participantAddress/addressCity"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 310,
+            "y": 417,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/participantAddress/addressState"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 452,
+            "y": 417,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/participantAddress/addressZip"
+        }
+      ]
+    },
+    "sec6": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 6,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 70,
+            "y": 556,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/tdBank/loanOfficerName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 406,
+            "y": 556,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/tdBank/loanOfficerTitle"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 95,
+            "y": 228,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "name": "/tdBank/signature",
+          "test": "/tdBank/signature"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 411,
+            "y": 252,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "name": "/tdBank/signature",
+          "test": "/tdBank/signature"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 70,
+            "y": 482,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgors/0/accountOwnerName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 182,
+            "y": 448,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgors/0/trusteeDecs"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 95,
+            "y": 300,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "name": "/pledgors/0/signature",
+          "test": "/pledgors/0/signature"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 411,
+            "y": 325,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "name": "/pledgors/0/signature",
+          "test": "/pledgors/0/signature"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 70,
+            "y": 435,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgors/1/accountOwnerName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 182,
+            "y": 401,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/pledgors/1/trusteeDecs"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 95,
+            "y": 349,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "name": "/pledgors/1/signature",
+          "test": "/pledgors/1/signature"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 411,
+            "y": 376,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "name": "/pledgors/1/signature",
+          "test": "/pledgors/1/signature"
+        }
+      ]
+    },
+    "sec6-tda-signature": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 6,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 70,
+            "y": 367,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/tdaSignature/name",
+          "test": "/tdaSignature/name"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 95,
+            "y": 415,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "name": "/tdaSignature",
+          "test": "/tdaSignature"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 411,
+            "y": 444,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "name": "/tdaSignature",
+          "test": "/tdaSignature"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 70,
+            "y": 298,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/tdaSignature/name",
+          "test": "/tdaSignature/name"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 95,
+            "y": 485,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "name": "/tdaSignature",
+          "test": "/tdaSignature"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 411,
+            "y": 513,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "name": "/tdaSignature",
+          "test": "/tdaSignature"
+        }
+      ]
+    },
+    "sec7": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 7,
+      "tags": [
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "loanAgreementDate": "05/28/2018",
+  "allNames": "drew.wang supernova John ,Smith Stan Smith Public, Private Qi Json Join, Left Right goods idea eclipse, china english ze hi, hiJsonPublicNodesJust hi hi format",
+  "applicantsAddress": "Hu Nan Chang sha",
+  "loc": "800,000.00",
+  "individuals": [
+    {
+      "name": "drew.wang",
+      "email": "individual.drew@better-debt.com",
+      "userId": 123123123
+    },
+    {
+      "name": "drew.wang",
+      "email": "individual.drew@better-debt.com",
+      "userId": 123123123
+    },
+    {
+      "name": "drew.wang",
+      "email": "individual.drew@better-debt.com",
+      "userId": 123123123
+    },
+    {
+      "name": "drew.wang",
+      "email": "individual.drew@better-debt.com",
+      "userId": 123123123
+    },
+    {
+      "name": "drew.wang",
+      "email": "individual.drew@better-debt.com",
+      "userId": 123123123
+    },
+    {
+      "name": "drew.wang",
+      "email": "individual.drew@better-debt.com",
+      "userId": 123123123
+    }
+  ],
+  "trusts": [
+    {
+      "trustName": "trustName - A",
+      "trustees": [
+        {
+          "name": "drew.wang",
+          "email": "individual.drew@better-debt.com",
+          "userId": 123123123
+        },
+        {
+          "name": "drew.wang",
+          "email": "individual.drew@better-debt.com",
+          "userId": 123123123
+        },
+        {
+          "name": "drew.wang",
+          "email": "individual.drew@better-debt.com",
+          "userId": 123123123
+        }
+      ]
+    },
+    {
+      "trustName": "trustName - B",
+      "trustees": [
+        {
+          "name": "drew.wang",
+          "email": "individual.drew@better-debt.com",
+          "userId": 123123123
+        },
+        {
+          "name": "drew.wang",
+          "email": "individual.drew@better-debt.com",
+          "userId": 123123123
+        },
+        {
+          "name": "drew.wang",
+          "email": "individual.drew@better-debt.com",
+          "userId": 123123123
+        }
+      ]
+    }
+  ],
+  "loanOfficerName": "Supernova office",
+  "signature":  {
+    "name": "drew.wang",
+    "email": "individual.drew@better-debt.com",
+    "userId": 123123123
+  },
+  "accountNumber": "account-123-123",
+  "loanNumber":"Loan Number 123123"
+}

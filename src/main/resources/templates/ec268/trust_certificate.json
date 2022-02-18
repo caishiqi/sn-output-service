@@ -1,0 +1,312 @@
+{
+  "pages": {
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "page2"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 191,
+            "y": 667,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trustCertificateDate"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 265,
+            "y": 667,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trusteeNames"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 113,
+            "y": 658,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trustName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 57,
+            "y": 648,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trustIncorporationDate"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 354,
+            "y": 638,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/loc"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 77,
+            "y": 578,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trusteeNames"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 84,
+            "y": 564,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trusteeAddress"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 321,
+            "y": 537,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trustIncorporationDate"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 254,
+            "y": 489,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trustName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 271,
+            "y": 463,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trustAddress"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "revocable": {
+              "x": 128,
+              "y": 409,
+              "w": 7,
+              "h": 7
+            },
+            "irrevocable": {
+              "x": 175,
+              "y": 409,
+              "w": 7,
+              "h": 7
+            }
+          },
+          "name": "/trustCurrently"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 203,
+            "y": 337,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/taxId"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 352,
+            "y": 403,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/revocableNameList"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "any": {
+              "x": 180,
+              "y": 372.5,
+              "w": 7,
+              "h": 7
+            },
+            "majority": {
+              "x": 209,
+              "y": 372.5,
+              "w": 7,
+              "h": 7
+            },
+            "all": {
+              "x": 260,
+              "y": 372.5,
+              "w": 7,
+              "h": 7
+            }
+          },
+          "name": "/revocableByLabel"
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 37,
+            "y": 691,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/trusts/trustName"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 319,
+            "y": 56,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "signature",
+          "name": "/trusts/trustees/0"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 504,
+            "y": 90,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "name": "/trusts/trustees/0"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 35,
+            "y": 86,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "signature",
+          "name": "/trusts/trustees/1"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 216,
+            "y": 120,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "name": "/trusts/trustees/1"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 319,
+            "y": 86,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "signature",
+          "name": "/trusts/trustees/2"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 504,
+            "y": 120,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "name": "/trusts/trustees/2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "pages": {
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "dataMaps": {
+        "sec1-borrowers": {
+          "startIdx": 0,
+          "endIdx": 5,
+          "mod": 1,
+          "dataKey": "/applicants"
+        },
+        "sec1-accounts": {
+          "startIdx": 0,
+          "endIdx": 5,
+          "mod": 1,
+          "dataKey": "/accounts"
+        }
+      },
+      "sections": [
+        {
+          "container": {
+            "w": 612,
+            "x": 0,
+            "h": 792,
+            "y": 0
+          },
+          "section": "sec1-borrowers"
+        },
+        {
+          "container": {
+            "w": 612,
+            "x": 0,
+            "h": 792,
+            "y": 0
+          },
+          "section": "sec1-accounts"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "page2"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+      ]
+    },
+    "sec1-borrowers": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 72,
+        "y": 0
+      },
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 97,
+            "h": 7,
+            "y": 668
+          },
+          "name": "name"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 262,
+            "h": 7,
+            "y": 668
+          },
+          "name": "occupation"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 412,
+            "h": 7,
+            "y": 668
+          },
+          "name": "addressStreet"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "drivers_license": {
+              "w": 7,
+              "x": 78,
+              "h": 7,
+              "y": 652
+            },
+            "passport": {
+              "w": 7,
+              "x": 135,
+              "h": 7,
+              "y": 652
+            },
+            "government_issued_photo_id": {
+              "w": 7,
+              "x": 175,
+              "h": 7,
+              "y": 652
+            }
+          },
+          "name": "idType"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 325,
+            "h": 7,
+            "y": 653
+          },
+          "name": "countryOfCitizenship"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "resident_alien": {
+              "w": 7,
+              "x": 460,
+              "h": 7,
+              "y": 650
+            },
+            "non_resident_alien": {
+              "w": 7,
+              "x": 515,
+              "h": 7,
+              "y": 650
+            }
+          },
+          "name": "residenceType"
+        },
+        {
+          "name": "wealthSource",
+          "areas": {
+            "employment_income": {
+              "w": 7,
+              "x": 276,
+              "h": 7,
+              "y": 638
+            },
+            "inheritance": {
+              "w": 7,
+              "x": 460,
+              "h": 7,
+              "y": 638
+            },
+            "business_ownership_income": {
+              "w": 7,
+              "x": 173,
+              "h": 7,
+              "y": 638
+            },
+            "sales": {
+              "w": 7,
+              "x": 298,
+              "h": 7,
+              "y": 628
+            },
+            "lottery_winnings": {
+              "w": 7,
+              "x": 189,
+              "h": 7,
+              "y": 628
+            },
+            "sale_of_business": {
+              "w": 7,
+              "x": 409,
+              "h": 7,
+              "y": 628
+            },
+            "investment_portfolio": {
+              "w": 7,
+              "x": 46,
+              "h": 7,
+              "y": 628
+            },
+            "appreciation": {
+              "w": 7,
+              "x": 116,
+              "h": 7,
+              "y": 638
+            },
+            "pension": {
+              "w": 7,
+              "x": 258,
+              "h": 7,
+              "y": 628
+            },
+            "gift": {
+              "w": 7,
+              "x": 434,
+              "h": 7,
+              "y": 638
+            },
+            "insurance_payout": {
+              "w": 7,
+              "x": 516,
+              "h": 7,
+              "y": 638
+            },
+            "loan_proceeds": {
+              "w": 7,
+              "x": 127,
+              "h": 7,
+              "y": 628
+            },
+            "settlement": {
+              "w": 7,
+              "x": 475,
+              "h": 7,
+              "y": 628
+            },
+            "trust_fund": {
+              "w": 7,
+              "x": 46,
+              "h": 7,
+              "y": 618
+            },
+            "other": {
+              "w": 7,
+              "x": 108,
+              "h": 7,
+              "y": 618
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 170,
+            "h": 7,
+            "y": 619
+          },
+          "name": "otherDescribe"
+        }
+      ]
+    },
+    "sec1-accounts": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 30,
+        "y": 0
+      },
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 39,
+            "h": 7,
+            "y": 217
+          },
+          "name": "accountNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 311,
+            "h": 7,
+            "y": 217
+          },
+          "name": "accountName"
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 37,
+            "h": 7,
+            "y": 671
+          },
+          "name": "/payments/bank"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 398,
+            "h": 7,
+            "y": 671
+          },
+          "name": "/payments/routingNumber"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 37,
+            "h": 7,
+            "y": 642
+          },
+          "name": "/payments/accountName"
+        },
+        {
+          "type": "text",
+          "area": {
+            "w": 84,
+            "x": 398,
+            "h": 7,
+            "y": 642
+          },
+          "name": "/payments/accountNumber"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "general_liquidity": {
+              "w": 7,
+              "x": 38,
+              "h": 7,
+              "y": 594
+            },
+            "agricultural_equipment": {
+              "w": 7,
+              "x": 136,
+              "h": 7,
+              "y": 594
+            },
+            "business_capital_injection": {
+              "w": 7,
+              "x": 237,
+              "h": 7,
+              "y": 594
+            },
+            "business_investment": {
+              "w": 7,
+              "x": 358,
+              "h": 7,
+              "y": 591
+            },
+            "estate_planning": {
+              "w": 7,
+              "x": 460,
+              "h": 7,
+              "y": 591
+            },
+            "real_estate_acquisition": {
+              "w": 7,
+              "x": 38,
+              "h": 7,
+              "y": 581
+            },
+            "fund_education_needs": {
+              "w": 7,
+              "x": 136,
+              "h": 7,
+              "y": 581
+            },
+            "fund_large_purchase": {
+              "w": 7,
+              "x": 237,
+              "h": 7,
+              "y": 581
+            },
+            "fund_personal_cash_flow_needs": {
+              "w": 7,
+              "x": 329,
+              "h": 7,
+              "y": 579
+            },
+            "purchase_residential_real_estate": {
+              "w": 7,
+              "x": 460,
+              "h": 7,
+              "y": 578
+            },
+            "refinance": {
+              "w": 7,
+              "x": 39,
+              "h": 7,
+              "y": 569
+            },
+            "refinance_pledged_asset_loans": {
+              "w": 7,
+              "x": 170,
+              "h": 7,
+              "y": 569
+            }
+          },
+          "name": "/purpose"
+        }
+      ]
+    }
+  }
+}

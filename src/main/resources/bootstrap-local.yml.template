@@ -1,0 +1,30 @@
+venus:
+  dynamicdb:
+    north-star: false
+
+AwsRegion: us-east-1
+LoggingLevel: debug
+SesConfigurationSet: test-set
+SchemaId: local
+PdfEngineDebug: true
+TemplateFileS3Bucket: local-template-bucket
+REDIS_HOST: localhost
+VirusScanResultSqs: local-antivirus-result
+VirusScanBucket: local-scan-bucket
+NotificationSnsArn: snsArn
+FileStorageBucket: local-file-storage-bucket
+
+core:
+  dynamicdb:
+   enabled: true
+   one-file: false
+datasource:
+  needRepair: false
+  flywayVersionTable: api_doc_schema_version
+  flywayLocations: flyway/migration
+  # defalut value is true
+  flywayEnabled: true
+  needPayment: false
+
+
+

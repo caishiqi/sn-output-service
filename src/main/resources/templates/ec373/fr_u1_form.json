@@ -1,0 +1,218 @@
+{
+  "pages": {
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1-borrowers"
+        }
+      ]
+    },
+    "combined1": {
+      "dataMaps": {
+        "sec1-borrowers": {
+          "startIdx": 0,
+          "endIdx": 11,
+          "mod": 2,
+          "dataKey": "/applicants"
+        }
+      },
+      "combinedPages": [
+        "page1",
+        "page2"
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "combined1"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 35,
+            "y": 628,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/nameOfBank"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 255,
+            "y": 417,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/loc"
+        },
+        {
+          "type": "checkbox",
+          "areas": {
+            "Yes": {
+              "x": 346,
+              "y": 399,
+              "w": 7,
+              "h": 7
+            },
+            "No": {
+              "x": 386,
+              "y": 399,
+              "w": 7,
+              "h": 7
+            }
+          },
+          "name": "/marginStock"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 62,
+            "y": 371,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/purpose"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 62,
+            "y": 355,
+            "w": 100,
+            "h": 100
+          },
+          "format": {
+            "formatType": "lineFeed",
+            "lengths": [
+              110,
+              110
+            ],
+            "formatWord": " ",
+            "offsetX": 0,
+            "offsetY": -12
+          },
+          "name": "/purposeNote"
+        }
+      ]
+    },
+    "sec1-borrowers": {
+      "offsetXs": [
+        0,
+        279
+      ],
+      "area": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 792
+      },
+      "tags": [
+        {
+          "type": "signature",
+          "area": {
+            "x": 35,
+            "y": 508,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "signature",
+          "name": "signature"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 224,
+            "y": 543,
+            "w": 100,
+            "h": 100
+          },
+          "signatureType": "date",
+          "name": "signature"
+        },
+        {
+          "name": "fullName",
+          "type": "text",
+          "area": {
+            "x": 35,
+            "y": 208,
+            "w": 100,
+            "h": 100
+          }
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 315,
+            "y": 160,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/frU1FormDate"
+        }
+      ]
+    }
+  }
+}

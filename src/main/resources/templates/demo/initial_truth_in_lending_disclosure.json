@@ -1,0 +1,136 @@
+{
+  "pages": {
+    "page3": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3"
+        }
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "page2",
+      "page3"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "type": "text",
+          "area": {
+            "x": 288,
+            "y": 650,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/apr"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 163,
+            "y": 251,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/interestRate"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 323,
+            "y": 251,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/apr"
+        },
+        {
+          "type": "text",
+          "area": {
+            "x": 509,
+            "y": 223,
+            "w": 100,
+            "h": 100
+          },
+          "name": "/marginRate"
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+      ]
+    },
+    "sec3": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 3,
+      "tags": [
+      ]
+    }
+  }
+}

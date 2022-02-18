@@ -1,0 +1,36 @@
+{
+  "esType":"application",
+  "tenantId":"sn",
+  "callbackUrl":"https:www.google.com",
+  "subject": "Please Sign my Java SDK Envelope.",
+  "blurb": "Hello, Please sign my Java SDK Envelope.",
+  "documents": [
+    {
+      "id": "1",
+      "name": "U-1.pdf",
+      "fileStorageId": "UUID",
+      "signs": [
+        {
+          "id": "1",
+          "name": "Jim Jin",
+          "email": "jim.jin@better-debt.com",
+          "type": "signature",
+          "x": "100",
+          "y": "100",
+          "page": "1",
+          "scaleValue": "0.8"
+        },
+        {
+          "id": "2",
+          "name": "mole Jin",
+          "email": "mole.jin@better-debt.com",
+          "type": "date",
+          "x": "500",
+          "y": "400",
+          "page": "1",
+          "scaleValue": "0.8"
+        }
+      ]
+    }
+  ]
+}

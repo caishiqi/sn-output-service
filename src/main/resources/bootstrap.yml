@@ -1,0 +1,7 @@
+spring:
+  cluster.name: ${EcsCluster}
+
+logging:
+  level:
+    com.supernovacompanies.core.dal: info
+

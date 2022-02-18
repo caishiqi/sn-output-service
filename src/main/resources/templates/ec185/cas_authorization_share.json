@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "sec1": {
+      "tplIdx": 1,
+      "area": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 792
+      },
+      "tags": [
+        {
+          "name": "/application/firm",
+          "type": "text",
+          "area": {
+            "x": 161,
+            "y": 255,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/application/faName",
+          "type": "text",
+          "area": {
+            "x": 251,
+            "y": 215,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/0/name",
+          "type": "text",
+          "area": {
+            "x": 160,
+            "y": 150,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/1/name",
+          "type": "text",
+          "area": {
+            "x": 160,
+            "y": 102,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/0",
+          "type": "signature",
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 167,
+            "y": 586,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/0",
+          "type": "signature",
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 445,
+            "y": 633,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/1",
+          "type": "signature",
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 167,
+            "y": 632,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/1",
+          "type": "signature",
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 445,
+            "y": 680,
+            "w": 7,
+            "h": 7
+          }
+        }
+      ]
+    },
+    "sec2": {
+      "tplIdx": 2,
+      "area": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 792
+      },
+      "tags": [
+        {
+          "name": "/signers/2/name",
+          "type": "text",
+          "area": {
+            "x": 160,
+            "y": 653,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/3/name",
+          "type": "text",
+          "area": {
+            "x": 160,
+            "y": 604,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/4/name",
+          "type": "text",
+          "area": {
+            "x": 160,
+            "y": 559,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/2",
+          "type": "signature",
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 167,
+            "y": 83,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/2",
+          "type": "signature",
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 445,
+            "y": 131,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/3",
+          "type": "signature",
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 167,
+            "y": 131,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/3",
+          "type": "signature",
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 445,
+            "y": 176,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/4",
+          "type": "signature",
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 167,
+            "y": 178,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/signers/4",
+          "type": "signature",
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 445,
+            "y": 225,
+            "w": 7,
+            "h": 7
+          }
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "x": 0,
+            "y": 0,
+            "w": 612,
+            "h": 792
+          },
+          "section": "sec1"
+        }
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "x": 0,
+            "y": 0,
+            "w": 612,
+            "h": 792
+          },
+          "section": "sec2"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "height": 792,
+    "style": {
+      "fontSize": 8,
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 255
+      }
+    },
+    "pages": [
+      "page1",
+      "page2"
+    ]
+  }
+}

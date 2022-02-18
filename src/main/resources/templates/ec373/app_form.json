@@ -1,0 +1,827 @@
+{
+  "pages": {
+    "page5": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec5"
+        }
+      ]
+    },
+    "page4": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec4"
+        }
+      ]
+    },
+    "page3": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec3"
+        }
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "page1": {
+      "dataMaps": {
+        "sec1-applicants": {
+          "startIdx": 0,
+          "endIdx": 1,
+          "mod": 2,
+          "dataKey": "/applicants"
+        }
+      },
+      "sections": [
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1-applicants"
+        },
+        {
+          "container": {
+            "w": 0,
+            "x": 0,
+            "h": 0,
+            "y": 0
+          },
+          "section": "sec1"
+        }
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "pages": [
+      "page1",
+      "page2",
+      "page3",
+      "page4",
+      "page5"
+    ],
+    "style": {
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "b": 0,
+        "g": 0
+      },
+      "fontSize": 8
+    },
+    "height": 792
+  },
+  "sections": {
+    "sec1": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 1,
+      "tags": [
+        {
+          "name": "/accountNumbers/0",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 56,
+            "h": 27.961389961389955,
+            "y": 152.5
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/1",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 226,
+            "h": 27.961389961389955,
+            "y": 152.5
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/2",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 393,
+            "h": 27.961389961389955,
+            "y": 152.5
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/3",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 56,
+            "h": 27.961389961389955,
+            "y": 134
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/4",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 226,
+            "h": 27.961389961389955,
+            "y": 134
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/5",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 393,
+            "h": 27.961389961389955,
+            "y": 134
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/6",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 56,
+            "h": 27.961389961389955,
+            "y": 117
+          },
+          "type": "text"
+        },
+        {
+          "name": "/accountNumbers/7",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 226,
+            "h": 27.961389961389955,
+            "y": 117
+          },
+          "type": "text"
+        }
+      ]
+    },
+    "sec1-applicants": {
+      "offsetXs": [
+        0,
+        274
+      ],
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tags": [
+        {
+          "name": "applicantName",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 644
+          },
+          "type": "text"
+        },
+        {
+          "name": "addressStreet",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 619
+          },
+          "type": "text"
+        },
+        {
+          "name": "addressCityStateZip",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 596
+          },
+          "type": "text"
+        },
+        {
+          "name": "phoneCell",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 571
+          },
+          "type": "text"
+        },
+        {
+          "name": "phoneWork",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 118,
+            "h": 27.961389961389955,
+            "y": 571
+          },
+          "type": "text"
+        },
+        {
+          "name": "phoneHome",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 212,
+            "h": 27.961389961389955,
+            "y": 571
+          },
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 548
+          },
+          "type": "text"
+        },
+        {
+          "name": "socialSecurityNumber",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 523
+          },
+          "type": "text"
+        },
+        {
+          "name": "birthday",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 176,
+            "h": 27.961389961389955,
+            "y": 523
+          },
+          "type": "text"
+        },
+        {
+          "name": "usCitizen",
+          "areas": {
+            "true": {
+              "w": 7,
+              "x": 204,
+              "h": 7,
+              "y": 491
+            },
+            "false": {
+              "w": 7,
+              "x": 250.5,
+              "h": 7,
+              "y": 491
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "idType",
+          "areas": {
+            "drivers_license": {
+              "w": 7,
+              "x": 127,
+              "h": 7,
+              "y": 474
+            },
+            "passport": {
+              "w": 7,
+              "x": 204,
+              "h": 7,
+              "y": 474
+            },
+            "government_issued_photo_id": {
+              "w": 7,
+              "x": 127,
+              "h": 7,
+              "y": 460
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "idNumber",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 439
+          },
+          "type": "text"
+        },
+        {
+          "name": "idIssuedState",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 183,
+            "h": 27.961389961389955,
+            "y": 439
+          },
+          "type": "text"
+        },
+        {
+          "name": "idIssuedDate",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 410
+          },
+          "type": "text"
+        },
+        {
+          "name": "idExpirationDate",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 183,
+            "h": 27.961389961389955,
+            "y": 410
+          },
+          "type": "text"
+        },
+        {
+          "name": "occupation",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 39,
+            "h": 27.961389961389955,
+            "y": 381
+          },
+          "type": "text"
+        },
+        {
+          "name": "employer",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 39,
+            "h": 27.961389961389955,
+            "y": 356
+          },
+          "type": "text"
+        },
+        {
+          "name": "maritalStatus",
+          "areas": {
+            "married": {
+              "w": 7,
+              "x": 99,
+              "h": 7,
+              "y": 319
+            },
+            "separated": {
+              "w": 7,
+              "x": 154.5,
+              "h": 7,
+              "y": 319
+            },
+            "unmarried": {
+              "w": 7,
+              "x": 219,
+              "h": 7,
+              "y": 319
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "annualIncome",
+          "areas": {
+            "less_than_50000": {
+              "w": 7,
+              "x": 37,
+              "h": 7,
+              "y": 271
+            },
+            "between_50000_and_100000": {
+              "w": 7,
+              "x": 128,
+              "h": 7,
+              "y": 272.5
+            },
+            "between_100001_and_250000": {
+              "w": 7,
+              "x": 220,
+              "h": 7,
+              "y": 272.5
+            },
+            "between_250001_and_500000": {
+              "w": 7,
+              "x": 37,
+              "h": 7,
+              "y": 253
+            },
+            "between_500001_and_1000000": {
+              "w": 7,
+              "x": 128,
+              "h": 7,
+              "y": 253
+            },
+            "greater_than_1_mil": {
+              "w": 7,
+              "x": 220,
+              "h": 7,
+              "y": 253
+            }
+          },
+          "type": "checkbox"
+        }
+      ]
+    },
+    "sec2": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 2,
+      "tags": [
+        {
+          "name": "/advisor/firmName",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 610
+          },
+          "type": "text"
+        },
+        {
+          "name": "/advisor/firmPhoneNumber",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 315,
+            "h": 27.961389961389955,
+            "y": 610
+          },
+          "type": "text"
+        },
+        {
+          "name": "/ach/bank",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 483
+          },
+          "type": "text"
+        },
+        {
+          "name": "/ach/accountName",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 395,
+            "h": 27.961389961389955,
+            "y": 483
+          },
+          "type": "text"
+        },
+        {
+          "name": "/ach/routingNumber",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 38,
+            "h": 27.961389961389955,
+            "y": 456
+          },
+          "type": "text"
+        },
+        {
+          "name": "/ach/accountNumber",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 395,
+            "h": 27.961389961389955,
+            "y": 456
+          },
+          "type": "text"
+        },
+        {
+          "name": "/creditInfo/applicantAgrees",
+          "areas": {
+            "true": {
+              "w": 7,
+              "x": 40,
+              "h": 7,
+              "y": 299
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "/creditInfo/purpose",
+          "areas": {
+            "personal_property": {
+              "w": 7,
+              "x": 39.5,
+              "h": 7,
+              "y": 264
+            },
+            "tax_payments": {
+              "w": 7,
+              "x": 247,
+              "h": 7,
+              "y": 264
+            },
+            "real_estate": {
+              "w": 7,
+              "x": 319,
+              "h": 7,
+              "y": 264
+            },
+            "general_household_purposes": {
+              "w": 7,
+              "x": 383,
+              "h": 7,
+              "y": 264
+            },
+            "other": {
+              "w": 7,
+              "x": 39,
+              "h": 7,
+              "y": 252
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "/creditInfo/purposeNote",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 128,
+            "h": 27.961389961389955,
+            "y": 253
+          },
+          "format": {
+            "formatType": "lineFeed",
+            "lengths": [
+              95,
+              95
+            ],
+            "formatWord": " ",
+            "offsetX": 0,
+            "offsetY": -16
+          },
+          "type": "text"
+        }
+      ]
+    },
+    "sec3": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 3,
+      "tags": [
+        {
+          "name": "/declaration/haveFundsToPayOff",
+          "areas": {
+            "true": {
+              "w": 7,
+              "x": 388,
+              "h": 7,
+              "y": 687
+            },
+            "false": {
+              "w": 7,
+              "x": 424,
+              "h": 7,
+              "y": 687
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "/declaration/lenderName",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 153,
+            "h": 27.961389961389955,
+            "y": 673
+          },
+          "type": "text"
+        },
+        {
+          "name": "/declaration/lendAccountNumber",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 155,
+            "h": 27.961389961389955,
+            "y": 659
+          },
+          "type": "text"
+        },
+        {
+          "name": "/declaration/loanBalance",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 362,
+            "h": 27.961389961389955,
+            "y": 659
+          },
+          "type": "text"
+        },
+        {
+          "name": "/declaration/haveCompaniesOwner",
+          "areas": {
+            "true": {
+              "w": 7,
+              "x": 52.5,
+              "h": 7,
+              "y": 601.5
+            },
+            "false": {
+              "w": 7,
+              "x": 89,
+              "h": 7,
+              "y": 601.5
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "/declaration/specifyCompanies",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 245,
+            "h": 27.961389961389955,
+            "y": 604.5
+          },
+          "type": "text"
+        },
+        {
+          "name": "/declaration/haveControlStockOfPublicCompany",
+          "areas": {
+            "true": {
+              "w": 7,
+              "x": 446.5,
+              "h": 7,
+              "y": 574.5
+            },
+            "false": {
+              "w": 7,
+              "x": 483,
+              "h": 7,
+              "y": 574.5
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "/declaration/stockSymbol",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 125,
+            "h": 27.961389961389955,
+            "y": 559
+          },
+          "type": "text"
+        },
+        {
+          "name": "/declaration/stockShares",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 379,
+            "h": 27.961389961389955,
+            "y": 559
+          },
+          "type": "text"
+        }
+      ]
+    },
+    "sec4": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 4,
+      "tags": [
+        {
+          "type": "signature",
+          "area": {
+            "x": 94,
+            "y": 377,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "signature",
+          "name": "/signatures/0"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 448,
+            "y": 408,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "date",
+          "name": "/signatures/0"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 108,
+            "y": 423,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "signature",
+          "name": "/signatures/1"
+        },
+        {
+          "type": "signature",
+          "area": {
+            "x": 448,
+            "y": 455,
+            "w": 100,
+            "h": 100
+          },
+          "scaleValue": 0.6,
+          "signatureType": "date",
+          "name": "/signatures/1"
+        }
+      ]
+    },
+    "sec5": {
+      "area": {
+        "w": 612,
+        "x": 0,
+        "h": 792,
+        "y": 0
+      },
+      "tplIdx": 5,
+      "tags": [
+        {
+          "name": "/supplementalInfo/copyPhotoID",
+          "areas": {
+            "true": {
+              "w": 7,
+              "x": 39,
+              "h": 7,
+              "y": 603
+            }
+          },
+          "type": "checkbox"
+        },
+        {
+          "name": "/supplementalInfo/hardCopyUploadTo",
+          "area": {
+            "w": 78.37065637065638,
+            "x": 51,
+            "h": 27.961389961389955,
+            "y": 575
+          },
+          "type": "text"
+        }
+      ]
+    }
+  }
+}

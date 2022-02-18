@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "sec1": {
+      "tplIdx": 1,
+      "area": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 792
+      },
+      "tags": [
+        {
+          "name": "/application/loc",
+          "type": "text",
+          "area": {
+            "x": 253,
+            "y": 417,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "/application/isPurchase",
+          "type": "checkbox",
+          "areas": {
+            "yes": {
+              "x": 346.5,
+              "y": 401,
+              "w": 7,
+              "h": 7
+            },
+            "no": {
+              "x": 385.8,
+              "y": 399,
+              "w": 8,
+              "h": 8
+            }
+          }
+        },
+        {
+          "name": "/application/purpose",
+          "type": "text",
+          "area": {
+            "x": 49,
+            "y": 375,
+            "w": 7,
+            "h": 7
+          }
+        }
+      ]
+    },
+    "sec1-1": {
+      "offsetXs": [
+        0,
+        277
+      ],
+      "area": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 792
+      },
+      "tags": [
+        {
+          "name": "fullName",
+          "type": "text",
+          "area": {
+            "x": 37,
+            "y": 198,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "signatureBlock",
+          "type": "text",
+          "area": {
+            "x": 37,
+            "y": 238,
+            "w": 7,
+            "h": 7
+          },
+          "format": {
+            "formatType": "lineFeed",
+            "lengths": [
+              61,
+              61
+            ],
+            "formatWord": " ",
+            "offsetX": 0,
+            "offsetY": -9
+          }
+        },
+        {
+          "name": "signature",
+          "type": "signature",
+          "signatureType": "signature",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 40,
+            "y": 491,
+            "w": 7,
+            "h": 7
+          }
+        },
+        {
+          "name": "signature",
+          "type": "signature",
+          "signatureType": "date",
+          "scaleValue": 0.6,
+          "area": {
+            "x": 223,
+            "y": 524,
+            "w": 7,
+            "h": 7
+          }
+        }
+      ]
+    },
+    "sec2": {
+      "tplIdx": 2,
+      "area": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 792
+      },
+      "tags": [
+      ]
+    }
+  },
+  "pages": {
+    "page1": {
+      "sections": [
+        {
+          "container": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "section": "sec1"
+        },
+        {
+          "container": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "section": "sec1-1"
+        }
+      ]
+    },
+    "page2": {
+      "sections": [
+        {
+          "container": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "section": "sec2"
+        }
+      ]
+    },
+    "combined1": {
+      "dataMaps": {
+        "sec1-1": {
+          "startIdx": 0,
+          "endIdx": 7,
+          "mod": 2,
+          "dataKey": "/signers"
+        },
+        "sec2": {
+          "startIdx": 0,
+          "endIdx": 7,
+          "mod": 2,
+          "dataKey": "/signers"
+        }
+      },
+      "combinedPages": [
+        "page1",
+        "page2"
+      ]
+    }
+  },
+  "document": {
+    "with": 612,
+    "height": 792,
+    "style": {
+      "fontSize": 8,
+      "fontFamily": "Helvetica",
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 255
+      }
+    },
+    "pages": [
+      "combined1"
+    ]
+  }
+}

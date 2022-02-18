@@ -1,0 +1,76 @@
+server:
+  port: 8900
+  max-http-header-size: 163840
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  cluster.name: ${EcsCluster}
+  application.name: sn-output-service
+  environment.active: ${Env}
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 40MB
+  flyway:
+    enabled: false
+  redis:
+    host: ${REDIS_HOST}
+    port: 6379
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+  messages:
+    baseProductName: sr,file,mail,document,message,ec373,ec273
+  freemarker:
+    settings:
+      classic_compatible: true
+
+pdf-engine.debug: ${PdfEngineDebug}
+## PDF storage temporary directory
+temp.path: /var/www/webapp/files/${spring.application.name}/tmp/
+#template.file.s3.bucket: ${TemplateFileS3Bucket}
+
+template:
+  file:
+    s3:
+      bucket: ${TemplateFileS3Bucket}
+      enable: true
+
+s3.bucket: ${FileStorageBucket}
+
+cloud.aws:
+  region.static: ${AWS_REGION}
+  stack.auto: false
+
+
+configurationSet.name: ${SesConfigurationSet}
+
+virus-scan:
+  bucket: ${VirusScanBucket}
+  overtime.millis: 30000
+  result.sqs: ${VirusScanResultSqs}
+  enabled: ${virusScanEnabled:true}
+
+notification.sns.arn: ${NotificationSnsArn}
+service.self.inspect.sns.topic: ${NotificationSnsArn}
+file.transport.token.expire.seconds: 600
+server-side-encryption:
+  enabled: ${serverEncryptionEnabled:true}
+
+pdf.file.tempDir: /var/www/webapp/files/${spring.application.name}/pdf
+callback:
+  retry:
+    delay: 30
+    times: 3
+  external.host.suffix: ${callbackUrlSuffix}
+
+core:
+  multidb:
+    type: config
+  jwt-url: ${STATIC_DOMAIN}/auth/.well-known/jwks.json
+
+static.resource.s3.bucket: ${StaticResourceS3Bucket}
