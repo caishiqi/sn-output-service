@@ -11,12 +11,12 @@ stacks:
       Env: ${EnvironmentName}
       NamespaceId: ${xref ${PROJECT_NAME}-serviceNamespace-${VERSION}::NamespaceId}
       InternalDomainSuffix: ${xref ${PROJECT_NAME}-serviceNamespace-${VERSION}::NamespaceName}
-      Queues:
-        virusScanSqs:
-          QueueName: ${PROJECT_NAME}-${VERSION}-service-antivirus-result
-          Subscription:
-            TopicArns:
-              - ${xref utility-sns::UtilityFileScanResultArn}
+#      Queues:
+#        virusScanSqs:
+#          QueueName: ${PROJECT_NAME}-${VERSION}-service-antivirus-result
+#          Subscription:
+#            TopicArns:
+#              - ${xref utility-sns::UtilityFileScanResultArn}
       TaskRole:
         RoleName: ${ServiceName}@${PROJECT_NAME}-${VERSION}
         Statements:

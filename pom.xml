@@ -179,7 +179,7 @@
     </dependencies>
 
     <build>
-        <finalName>utility-service</finalName>
+        <finalName>sn-output-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
