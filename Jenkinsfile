@@ -1,11 +1,7 @@
 #!groovy
 
-def serviceFolder() {
-   return '.' // if the service folder empty then return '.' represent current dir
-}
-
 def serviceBuild() {
-   dir('../'){sh 'mvn -U clean install -Dmaven.test.skip'}
+   sh 'mvn clean install -U -DskipTests'
 }
 
 
