@@ -19,7 +19,8 @@ import java.util.List;
 @MapperScan(basePackages =
         {
                 "com.supernovacompanies.core.dal.configuration.dao.mapper.common",
-                "com.supernovacompanies.encryption.dao.mybatis.common",        },
+                "com.supernovacompanies.encryption.dao.mybatis.common",
+                "com.supernovacompanies.error.dao.mapper.common"},
         sqlSessionTemplateRef = "commonDBSqlSessionTemplate")
 public class CommonMybatisConfig {
     @Autowired
@@ -31,7 +32,8 @@ public class CommonMybatisConfig {
         bean.setDataSource(multiDataSource.getCommonDbDataSource());
         List<String> mapperLocations = Arrays.asList(
                 "mybatis/configuration/common/*.xml",
-                "mybatis/mapper/common/*.xml"
+                "mybatis/mapper/common/*.xml",
+                "mybatis/error/common/*.xml"
         );
 
         bean.setMapperLocations(DBConfigTool.resolveMapperLocations(mapperLocations));

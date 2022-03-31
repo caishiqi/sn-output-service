@@ -26,7 +26,8 @@ import org.springframework.validation.beanvalidation.MethodValidationPostProcess
         "com.supernovacompanies.venus.configuration",
         "com.supernovacompanies.encryption",
         "com.supernovacompanies.core.dal",
-        "com.supernovacompanies.venus.exception"
+        "com.supernovacompanies.error",
+        "com.supernovacompanies.venus.ucenter.auth.interceptor"
 })
 public class SnOutputServiceApplication {
 
