@@ -11,6 +11,95 @@ stacks:
       Env: ${EnvironmentName}
       NamespaceId: ${xref ${PROJECT_NAME}-serviceNamespace-${VERSION}::NamespaceId}
       InternalDomainSuffix: ${xref ${PROJECT_NAME}-serviceNamespace-${VERSION}::NamespaceName}
+      #      Queues:
+      #        virusScanSqs:
+      #          QueueName: ${PROJECT_NAME}-${VERSION}-service-antivirus-result
+      #          Subscription:
+      #            TopicArns:
+      #              - ${xref utility-sns::UtilityFileScanResultArn}
+      TaskRole:
+        RoleName: ${ServiceName}@${PROJECT_NAME}-${VERSION}
+        Statements:
+          sesStatement:
+            Effect: "Allow"
+            Action:
+              - "ses:Send*"
+            Resource:
+              - arn:aws:ses:@{AWS::Region}:@{AWS::AccountId}:identity/*
+          snsStatement:
+            Effect: "Allow"
+            Action:
+              - "sns:Publish"
+            Resource: "*"
+          s3Statement:
+            Effect: "Allow"
+            Action:
+              - "s3:Get*"
+              - "s3:ListBucket"
+              - "s3:ListObjects"
+              - "s3:Put*"
+              - "s3:GetBucketLocation"
+              - "s3:DeleteObject"
+            Resource:
+              - ${xref utility-s3::ANTIVIRUSFILESTORAGES3BucketBucketArn}
+              - ${xref utility-s3::ANTIVIRUSFILESTORAGES3BucketBucketArn}/*
+              - ${xref utility-s3::FileStorageS3BucketBucketArn}
+              - ${xref utility-s3::FileStorageS3BucketBucketArn}/*
+          s3DenyStatement:
+            Effect: "Deny"
+            Action:
+              - "s3:Put*Acl"
+              - "s3:Put*Policy"
+            Resource:
+              - ${xref utility-s3::ANTIVIRUSFILESTORAGES3BucketBucketArn}
+              - ${xref utility-s3::ANTIVIRUSFILESTORAGES3BucketBucketArn}/*
+              - ${xref utility-s3::FileStorageS3BucketBucketArn}
+              - ${xref utility-s3::FileStorageS3BucketBucketArn}/*
+          templateFileS3Statement:
+            Effect: "Allow"
+            Action:
+              - "s3:Get*"
+              - "s3:List*"
+            Resource:
+              - ${xref global-util-${EnvironmentName}-s3::NORTHSTARTEMPLATEFILEBucketArn}
+              - ${xref global-util-${EnvironmentName}-s3::NORTHSTARTEMPLATEFILEBucketArn}/*
+              - ${xref global-util-${EnvironmentName}-s3::SNCFRONTENDRESOURCEV2BucketArn}
+              - ${xref global-util-${EnvironmentName}-s3::SNCFRONTENDRESOURCEV2BucketArn}/*
+          sqsStatement:
+            Effect: "Allow"
+            Action:
+              - "sqs:DeleteMessage"
+              - "sqs:PurgeQueue"
+              - "sqs:ReceiveMessage"
+              - "sqs:SendMessage"
+              - "sqs:Get*"
+            Resource:
+              - arn:aws:sqs:@{AWS::Region}:@{AWS::AccountId}:${PROJECT_NAME}-${VERSION}-service-antivirus-result
+          fileSnsStatement:
+            Effect: "Allow"
+            Action:
+              - "sns:*"
+            Resource:
+              - ${xref global-util-${EnvironmentName}-sns::FileStorageResultArn}
+          kmsStatement:
+            Effect: "Allow"
+            Action:
+              - "kms:Decrypt"
+              - "kms:GenerateDataKey"
+            Resource:
+              - ${ssmstore /systemInfo/kms/secretsManagerKeyId}
+          secretsmanagerStatement:
+            Effect: "Allow"
+            Action:
+              - "secretsmanager:GetSecretValue"
+            Resource:
+              - arn:aws:secretsmanager:@{AWS::Region}:@{AWS::AccountId}:secret:/configDeployment/product/*
+          voiceStatement:
+            Effect: "Allow"
+            Action:
+              - "sms-voice:SendVoiceMessage"
+            Resource:
+              - "*"
 
       DeployInfo:
         Cluster: ${CLUSTER_NAME}
